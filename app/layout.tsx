@@ -7,6 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "ActionXen",
   description: "A Task Management App.",
+  icons: [
+    {
+      url: "/next.svg",
+    },
+  ],
 };
 
 export default function RootLayout({
