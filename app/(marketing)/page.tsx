@@ -15,7 +15,7 @@ const MarketingPage = () => {
           Where Action meets
         </h1>
         <div className="flex items-center text-center justify-center text-xl md:text-4xl bg-gradient-to-r from-blue-400 to-blue-600 text-white px-3 p-2 rounded-md pb-2.5 w-fit">
-          Xen and Balance
+          Xen & Balance
         </div>
       </div>
       <div className="text-sm md:text-xl text-neutral-400 mt-4 max-w-xs md:max-w-2xl text-center mx-auto">
