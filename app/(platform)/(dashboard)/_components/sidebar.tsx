@@ -45,7 +45,7 @@ const Sidebar = (props: ISidebarProps) => {
   const onExpand = (id: string) => {
     setExpanded((prev) => ({
       ...prev,
-      [id]: expanded[id],
+      [id]: !expanded[id], //here we are toggling the state.
     }));
   };
 
