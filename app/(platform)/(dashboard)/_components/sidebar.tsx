@@ -7,7 +7,7 @@ import { Plus } from "lucide-react";
 import { useOrganization, useOrganizationList } from "@clerk/nextjs";
 //Importing components.
 import { Button } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator";
+// import { Separator } from "@/components/ui/separator";
 import { Accordion } from "@/components/ui/accordion";
 import { Skeleton } from "@/components/ui/skeleton";
 import NavItem, { Organization } from "./navItem";
