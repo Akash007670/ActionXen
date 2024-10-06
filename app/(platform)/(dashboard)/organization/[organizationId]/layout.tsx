@@ -1,13 +1,13 @@
 import React, { ReactNode } from "react";
-import Navbar from "../../_components/navbar";
+import OrganizationControl from "./_components/orgControl";
 
-const DashboardLayout = ({ children }: { children: ReactNode }) => {
+const OrganizationIdLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <div className="h-full">
-      <Navbar />
+    <div>
+      <OrganizationControl />
       {children}
     </div>
   );
 };
 
-export default DashboardLayout;
+export default OrganizationIdLayout;
