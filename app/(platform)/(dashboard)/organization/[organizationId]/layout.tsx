@@ -3,10 +3,10 @@ import OrganizationControl from "./_components/orgControl";
 
 const OrganizationIdLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <div>
+    <>
       <OrganizationControl />
       {children}
-    </div>
+    </>
   );
 };
 
