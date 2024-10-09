@@ -14,7 +14,7 @@ const OrganizationControl = () => {
     setActive({ organization: params.organizationId as string }); // making the params.organizationId as string.
   }, [setActive, params.organizationId]); //Also the organizationId should be spelled correctly and match with folder name.
 
-  return <div>OrganizationControl</div>;
+  return null;
 };
 
 export default OrganizationControl;
